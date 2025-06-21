@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///project/sandbox/user-workspace/src/app/layout.tsx"],"sourcesContent":["\"use client\";\n\nimport React from \"react\";\nimport \"../globals.css\";\n\nexport default function RootLayout({ children }: { children: React.ReactNode }) {\n  return (\n    <html lang=\"es\">\n      <head>\n        <title>MapStays</title>\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n      </head>\n      <body>{children}</body>\n    </html>\n  );\n}\n"],"names":[],"mappings":";;;;;;;;;AAAA;;;AAKe,SAAS,WAAW,EAAE,QAAQ,EAAiC;IAC5E,qBACE,6LAAC;QAAK,MAAK;;0BACT,6LAAC;;kCACC,6LAAC;kCAAM;;;;;;kCACP,6LAAC;wBAAK,MAAK;wBAAW,SAAQ;;;;;;;;;;;;0BAEhC,6LAAC;0BAAM;;;;;;;;;;;;AAGb;KAVwB","debugId":null}}]
+}
