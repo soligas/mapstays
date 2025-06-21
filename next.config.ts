@@ -1,6 +1,8 @@
 import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
+  output: 'export',
+  basePath: process.env.NODE_ENV === 'production' ? '/your-repo-name' : '',
   images: {
     remotePatterns: [
       {
@@ -9,6 +11,7 @@ const nextConfig: NextConfig = {
         pathname: '/photos/**',
       },
     ],
+    unoptimized: true,
   },
 }
 
